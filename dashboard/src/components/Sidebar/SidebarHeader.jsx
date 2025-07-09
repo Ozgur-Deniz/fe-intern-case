@@ -3,7 +3,7 @@ import shoppingBag from '../../assets/shopping-bag.svg';
 
 function SidebarHeader() {
   return (
-    <div className="flex flex-row items-center justify-evenly w-full h-[80px] border-[#ececeb] border-b-2">
+    <div className="flex flex-row items-center justify-evenly w-full h-[100px] border-[#ececeb] border-b-2">
       <div className="flex flex-row items-center justify-start gap-5 min-w-[160px]">
         <div className="w-[50px] h-[50px] flex items-center justify-center rounded-full bg-gradient-to-b from-[#161919] to-[#5B5C7A] ">
           <img
