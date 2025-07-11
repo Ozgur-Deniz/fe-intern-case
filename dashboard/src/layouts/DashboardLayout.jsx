@@ -6,16 +6,14 @@ import StatusCards from "../components/StatusCards/StatusCards";
 
 function DashboardLayout() {
   return (
-    <div className="flex gap-7 ">
-      <div className="w-[250px] bg-white shadow h-full">
+    <div className="flex gap-7 max-lg:gap-0  flex-row items-start justify-start ">
+      <div className="max-xs:hidden w-[250px] max-md:w-[100px] bg-white shadow h-full">
         <Sidebar />
       </div>
-      <div className="flex-1 flex flex-col items-start justify-center gap-4">
+      <div className="flex flex-1 flex-col items-center justify-center gap-4 overflow-x-hidden">
         <Header />
         <StatusCards />
-        <div className="flex-1  w-[100%] rounded-xl ">
-          <MainContent />
-        </div>
+        <MainContent />
       </div>
     </div>
   );
