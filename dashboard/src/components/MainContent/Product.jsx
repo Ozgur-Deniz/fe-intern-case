@@ -8,7 +8,7 @@ function Product({ item }) {
   const { name, category, transactionId, date, amount, type } = item;
 
   return (
-    <div className="grid grid-cols-[250px_200px_150px_150px_200px_100px] items-center border-b-2 border-[#ececeb] pb-4 w-[92%] max-2xl:w-[1030px] ">
+    <div className="grid grid-cols-[250px_200px_150px_150px_200px_100px] items-center border-b-2 border-[#ececeb] pb-4 w-[92%] max-2xl:w-[1030px]">
       <div className="flex items-center gap-2">
         <input type="checkbox" className="w-4 h-4" />
         <div className="w-12 h-12 bg-[#c4c4c4] rounded-xl" />
