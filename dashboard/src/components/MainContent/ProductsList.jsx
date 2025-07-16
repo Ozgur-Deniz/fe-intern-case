@@ -5,7 +5,7 @@ import allProducts from "../../data/allProducts";
 function ProductsList() {
   return (
     <div className="flex flex-col gap-4 w-[90%] pl-4 md:pl-0">
-      <div className="grid grid-cols-[250px_200px_150px_150px_200px_100px] border-b-2 border-[#ececeb] pb-5 w-[92%] max-xl:w-full ">
+      <div className="grid grid-cols-[250px_200px_150px_150px_200px_100px] border-b-2 border-[#ececeb] pb-5 w-[92%] max-2xl:w-[1030px] ">
         <div className="flex items-center gap-2">
           <input type="checkbox" disabled checked={false} className="w-4 h-4" />
           <p className="text-[#B2B3B9] text-sm font-bold font-cairo">Product</p>
