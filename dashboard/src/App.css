@@ -18,3 +18,24 @@
 .font-poppins {
     font-family: "Poppins", sans-serif;
 }
+
+.custom-scroll::-webkit-scrollbar {
+  height: 8px;
+}
+
+.custom-scroll::-webkit-scrollbar-track {
+  background: #e5e5e5;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb {
+  background-color: #4f56d3;
+  border-radius: 10px;
+}
+
+.dark .custom-scroll::-webkit-scrollbar-track {
+  background: #00044a;
+}
+
+.dark .custom-scroll::-webkit-scrollbar-thumb {
+  background-color: #ffffff;
+}

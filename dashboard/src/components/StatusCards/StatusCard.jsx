@@ -4,11 +4,11 @@ import { MdTrendingDown } from "react-icons/md";
 
 function StatusCard({ item }) {
   return (
-    <div className="w-[224px] xxs:w-full bg-[#ffffff] rounded-xl flex flex-col items-start justify-center gap-1 pl-6 pt-3 pb-3">
+    <div className="w-[224px] xxs:w-full bg-[#ffffff] dark:bg-[#00044a] rounded-xl flex flex-col items-start justify-center gap-1 pl-6 pt-3 pb-3">
       <p className="font-open text-[#878787] font-normal text-sm ">
         {item.label}
       </p>
-      <h2 className="font-cairo text-[#161919] font-bold text-2xl ">
+      <h2 className="font-cairo text-[#161919] dark:text-[#ffffff] font-bold text-2xl ">
         {item.count}
       </h2>
       {item.status ? (

@@ -9,7 +9,7 @@ function Dropdown({ item }) {
   return (
     <div
       className={`flex flex-col gap-6 items-start justify-start w-[90%] ${
-        openDropdown && "bg-[#f5f5f5]"
+        openDropdown && "bg-[#f5f5f5] dark:bg-[#000670]"
       } rounded-md`}
     >
       <div

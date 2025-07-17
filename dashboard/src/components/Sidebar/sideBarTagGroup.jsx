@@ -4,7 +4,7 @@ import Dropdown from './Dropdown';
 function SidebarTagGroup({ title, items }) {
   return (
     <div className="flex flex-col items-start justify-center gap-8 w-full">
-      <p className="max-md:hidden font-open text-[#C7C7C7]">{title}</p>
+      <p className="max-md:hidden font-open text-[#C7C7C7] dark:text-white ">{title}</p>
       {items.map((item) => {
         const Icon = item.icon;
         const {id, label, children} = item;

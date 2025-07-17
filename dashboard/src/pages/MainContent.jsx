@@ -6,9 +6,9 @@ import PagesBtns from "../components/MainContent/PagesBtns";
 
 function MainContent() {
   return (
-    <div className="bg-[#ffffff] flex flex-col items-center justify-center gap-5 rounded-xl 2xl:w-[98%]  xxs:w-[90%] overflow-x-auto 2xl:overflow-x-visible mb-8">
+    <div className="bg-[#ffffff] dark:bg-[#00044a] flex flex-col items-center justify-center gap-5 rounded-xl 2xl:w-[98%]  xxs:w-[90%] overflow-x-auto 2xl:overflow-x-visible mb-8 custom-scroll">
       <div className="flex flex-row max-sm:flex-col max-sm:items-start items-center justify-between p-5 w-full xl:min-w-[710px]">
-        <p className="font-cairo font-bold text-[#333333] text-[18px] ">
+        <p className="font-cairo font-bold text-[#333333] dark:text-white text-[18px] ">
           All Products
         </p>
         <div className="flex flex-row items-center justify-center gap-2">
